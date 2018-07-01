@@ -1,0 +1,116 @@
+﻿namespace PaladinsAPI.Models {
+    public class MatchDetails : APIResponse {
+        public int Account_Level { get; set; }
+        public int ActiveId1 { get; set; }
+        public int ActiveId2 { get; set; }
+        public int ActiveId3 { get; set; }
+        public int ActiveId4 { get; set; }
+        public int ActiveLevel1 { get; set; }
+        public int ActiveLevel2 { get; set; }
+        public int ActiveLevel3 { get; set; }
+        public int ActiveLevel4 { get; set; }
+        public int Assists { get; set; }
+        public int Ban1Id { get; set; }
+        public int Ban2Id { get; set; }
+        public int Ban3Id { get; set; }
+        public int Ban4Id { get; set; }
+        public string Ban1 { get; set; }
+        public string Ban2 { get; set; }
+        public string Ban3 { get; set; }
+        public string Ban4 { get; set; }
+        public int Camps_Cleared { get; set; }
+        public int ChampionId { get; set; }
+        public int Damage_Bot { get; set; }
+        public int Damage_Done_In_Hand { get; set; }
+        public int Damage_Done_Magical { get; set; }
+        public int Damage_Done_Physical { get; set; }
+        public int Damage_Mitigated { get; set; }
+        public int Damage_Player { get; set; }
+        public int Damage_Taken { get; set; }
+        public int Damage_Taken_Magical { get; set; }
+        public int Damage_Taken_Physical { get; set; }
+        public int Deaths { get; set; }
+        public int Distance_Traveled { get; set; }
+        public string Entry_Datetime { get; set; }
+        public int Final_Match_Level { get; set; }
+        public int GodId { get; set; }
+        public int Gold_Earned { get; set; }
+        public int Gold_Per_Minute { get; set; }
+        public int Healing { get; set; }
+        public int Healing_Bot { get; set; }
+        public int Healing_Player_Self { get; set; }
+        public int ItemId1 { get; set; }
+        public int ItemId2 { get; set; }
+        public int ItemId3 { get; set; }
+        public int ItemId4 { get; set; }
+        public int ItemId5 { get; set; }
+        public int ItemId6 { get; set; }
+        public int ItemLevel1 { get; set; }
+        public int ItemLevel2 { get; set; }
+        public int ItemLevel3 { get; set; }
+        public int ItemLevel4 { get; set; }
+        public int ItemLevel5 { get; set; }
+        public int ItemLevel6 { get; set; }
+        public string Item_Active_1 { get; set; }
+        public string Item_Active_2 { get; set; }
+        public string Item_Active_3 { get; set; }
+        public string Item_Active_4 { get; set; }
+        public string Item_Purch_1 { get; set; }
+        public string Item_Purch_2 { get; set; }
+        public string Item_Purch_3 { get; set; }
+        public string Item_Purch_4 { get; set; }
+        public string Item_Purch_5 { get; set; }
+        public string Item_Purch_6 { get; set; }
+        public int Killing_Spree { get; set; }
+        public int Kills_Bot { get; set; }
+        public int Kills_Double { get; set; }
+        public int Kills_Fire_Giant { get; set; }
+        public string Kills_First_Blood { get; set; }
+        public int Kills_Gold_Fury { get; set; }
+        public int Kills_Penta { get; set; }
+        public int Kills_Phoenix { get; set; }
+        public int Kills_Player { get; set; }
+        public int Kills_Quadra { get; set; }
+        public int Kills_Siege_Juggernaut { get; set; }
+        public int Kills_Single { get; set; }
+        public int Kills_Triple { get; set; }
+        public int Kills_Wild_Juggernaut { get; set; }
+        public int League_Losses { get; set; }
+        public int League_Points { get; set; }
+        public int League_Wins { get; set; }
+        public string Map_Game { get; set; }
+        public int Mastery_Level { get; set; }
+        public int Match { get; set; }
+        public int Minutes { get; set; }
+        public int Multi_kill_Max { get; set; }
+        public int Objective_Assists { get; set; }
+        public int PartyId { get; set; }
+        public string Reference_Name { get; set; }
+        public string Region { get; set; }
+        public string Skin { get; set; }
+        public int SkinId { get; set; }
+        public int Structure_Damage { get; set; }
+        public string Surrendered { get; set; }
+        public int TaskForce { get; set; }
+        public int Team1Score { get; set; }
+        public int Team2Score { get; set; }
+        public int TeamId { get; set; }
+        public string Team_Name { get; set; }
+        public int Time_In_Match_Seconds { get; set; }
+        public int Towers_Destroyed { get; set; }
+        public int Wards_Placed { get; set; }
+        public string Win_Status { get; set; }
+        public int Winning_TaskForge { get; set; }
+        public string hasReplay { get; set; }
+        public int match_queue_id { get; set; }
+        public string name { get; set; }
+        public int playerId { get; set; }
+        public string playerName { get; set; }
+        
+		public override string ToString()
+		{
+			return string.Format("[MatchDetails Account_Level={0}, ActiveId1={1}, ActiveId2={2}, ActiveId3={3}, ActiveId4={4}, ActiveLevel1={5}, ActiveLevel2={6}, ActiveLevel3={7}, ActiveLevel4={8}, Assists={9}, Ban1Id={10}, Ban2Id={11}, Ban3Id={12}, Ban4Id={13}, Ban1={14}, Ban2={15}, Ban3={16}, Ban4={17}, Camps_Cleared={18}, ChampionId={19}, Damage_Bot={20}, Damage_Done_In_Hand={21}, Damage_Done_Magical={22}, Damage_Done_Physical={23}, Damage_Mitigated={24}, Damage_Player={25}, Damage_Taken={26}, Damage_Taken_Magical={27}, Damage_Taken_Physical={28}, Deaths={29}, Distance_Traveled={30}, Entry_Datetime={31}, Final_Match_Level={32}, GodId={33}, Gold_Earned={34}, Gold_Per_Minute={35}, Healing={36}, Healing_Bot={37}, Healing_Player_Self={38}, ItemId1={39}, ItemId2={40}, ItemId3={41}, ItemId4={42}, ItemId5={43}, ItemId6={44}, ItemLevel1={45}, ItemLevel2={46}, ItemLevel3={47}, ItemLevel4={48}, ItemLevel5={49}, ItemLevel6={50}, Item_Active_1={51}, Item_Active_2={52}, Item_Active_3={53}, Item_Active_4={54}, Item_Purch_1={55}, Item_Purch_2={56}, Item_Purch_3={57}, Item_Purch_4={58}, Item_Purch_5={59}, Item_Purch_6={60}, Killing_Spree={61}, Kills_Bot={62}, Kills_Double={63}, Kills_Fire_Giant={64}, Kills_First_Blood={65}, Kills_Gold_Fury={66}, Kills_Penta={67}, Kills_Phoenix={68}, Kills_Player={69}, Kills_Quadra={70}, Kills_Siege_Juggernaut={71}, Kills_Single={72}, Kills_Triple={73}, Kills_Wild_Juggernaut={74}, League_Losses={75}, League_Points={76}, League_Wins={77}, Map_Game={78}, Mastery_Level={79}, Match={80}, Minutes={81}, Multi_kill_Max={82}, Objective_Assists={83}, PartyId={84}, Reference_Name={85}, Region={86}, Skin={87}, SkinId={88}, Structure_Damage={89}, Surrendered={90}, TaskForce={91}, Team1Score={92}, Team2Score={93}, TeamId={94}, Team_Name={95}, Time_In_Match_Seconds={96}, Towers_Destroyed={97}, Wards_Placed={98}, Win_Status={99}, Winning_TaskForge={100}, HasReplay={101}, Match_queue_id={102}, Name={103}, PlayerId={104}, PlayerName={105}]", Account_Level, ActiveId1, ActiveId2, ActiveId3, ActiveId4, ActiveLevel1, ActiveLevel2, ActiveLevel3, ActiveLevel4, Assists, Ban1Id, Ban2Id, Ban3Id, Ban4Id, Ban1, Ban2, Ban3, Ban4, Camps_Cleared, ChampionId, Damage_Bot, Damage_Done_In_Hand, Damage_Done_Magical, Damage_Done_Physical, Damage_Mitigated, Damage_Player, Damage_Taken, Damage_Taken_Magical, Damage_Taken_Physical, Deaths, Distance_Traveled, Entry_Datetime, Final_Match_Level, GodId, Gold_Earned, Gold_Per_Minute, Healing, Healing_Bot, Healing_Player_Self, ItemId1, ItemId2, ItemId3, ItemId4, ItemId5, ItemId6, ItemLevel1, ItemLevel2, ItemLevel3, ItemLevel4, ItemLevel5, ItemLevel6, Item_Active_1, Item_Active_2, Item_Active_3, Item_Active_4, Item_Purch_1, Item_Purch_2, Item_Purch_3, Item_Purch_4, Item_Purch_5, Item_Purch_6, Killing_Spree, Kills_Bot, Kills_Double, Kills_Fire_Giant, Kills_First_Blood, Kills_Gold_Fury, Kills_Penta, Kills_Phoenix, Kills_Player, Kills_Quadra, Kills_Siege_Juggernaut, Kills_Single, Kills_Triple, Kills_Wild_Juggernaut, League_Losses, League_Points, League_Wins, Map_Game, Mastery_Level, Match, Minutes, Multi_kill_Max, Objective_Assists, PartyId, Reference_Name, Region, Skin, SkinId, Structure_Damage, Surrendered, TaskForce, Team1Score, Team2Score, TeamId, Team_Name, Time_In_Match_Seconds, Towers_Destroyed, Wards_Placed, Win_Status, Winning_TaskForge, hasReplay, match_queue_id, name, playerId, playerName);
+		}
+
+    }
+}
